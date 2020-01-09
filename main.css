@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.center {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+.blackbox {
+  background-color: black;
+  opacity: 0.8;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.btnList {
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  font-family: Lobster;
+  color: white;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  text-align: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  float: right;
+  padding: 13px 12px;
+  text-decoration: none;
+  font-size: 1.9em;
+}
+
+#logo {
+  float: left;
+}
+
+nav li a:hover {
+  background-color: #111;
+}
+
+h1 {
+  padding: 0;
+  margin-top: 0px;
+  font-size: 4em;
+}
+.btn {
+  border-color: black;
+  color: blue;
+  margin-right: 10px;
+  font-size: 2.7em;
+  margin-top: 15px;
+}
+.landing {
+  background: url("/images/MeRunningface\ \(copy\).png");
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+.about {
+  background: url("/images/haley-phelps-Alamo.jpg");
+  background-size: cover;
+  height: 100vh;
+  padding-top: 6%;
+}
+
+.cont {
+  text-align: center;
+}
+
+.columnLeft {
+  float: left;
+  width: 50%;
+}
+
+.columnRight {
+  float: right;
+  width: 50%;
+}
+
+.projects {
+  background: url("/images/chris-ried-python.jpg");
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  padding-top: 5%;
+}
+
+.Toprow {
+  padding-top: 35px;
+  padding-bottom: 325px;
+}
+
+.card {
+  transition: 0.3s;
+  width: 70%;
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+  overflow: hidden;
+  color: white;
+}
+
+.cardTitle {
+  position: absolute;
+  top: 19%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+}
+.cardcontainer {
+  padding: 2px 16px;
+}
+
+p {
+  font-size: 2.2em;
+}
+.myface {
+  border-radius: 50%;
+}
+.contact {
+  background: url("/images/philip-strong-Info.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 5%;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width: 321px) {
+  /* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width: 320px) {
+  /* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1224px) {
+  /* Styles */
+}
+
+@media only screen and (max-height: 767px) {
+  /* Styles */
+  .blackbox {
+    background-color: black;
+    opacity: 0.8;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  .blackbox h1 {
+    font-size: 3em;
+  }
+  .blackbox h2 {
+    font-size: 1.5em;
+  }
+  .Toprow {
+    padding-top: 15px;
+    padding-bottom: 290px;
+  }
+  .card {
+    width: 55%;
+  }
+
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width: 1824px) {
+  /* Styles */
+}
