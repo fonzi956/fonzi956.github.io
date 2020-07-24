@@ -96,11 +96,13 @@ h1 {
 }
 
 .columnLeft {
+  background-color:  #d3d3d3;
   float: left;
   width: 50%;
 }
 
 .columnRight {
+  background-color:  #d3d3d3;
   float: right;
   width: 50%;
 }
